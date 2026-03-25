@@ -29,6 +29,9 @@ CONTENTS
   2 slc libname sqlite
   3 slc passthru sqlite
 
+Related to Altar Post
+https://community.altair.com/discussion/50697/market-basket-analysis-operators-to-change-data-layout?tab=all
+
 PREP
 
 Download Christian Werner ODBC Drive (sqliteodbc_w64)
