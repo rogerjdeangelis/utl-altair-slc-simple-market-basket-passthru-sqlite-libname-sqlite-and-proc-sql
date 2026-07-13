@@ -1,0 +1,8 @@
+
+  Obs  butter_cnt          products  customers  prob
+-----  ----------  ----------------  ---------  ----
+    1          20  butter                   20     1
+    2          20  whole milk               11  0.55
+    3          20  other vegetables         11  0.55
+    4          20  yogurt                    9  0.45
+    5          20  rolls/buns                7  0.35

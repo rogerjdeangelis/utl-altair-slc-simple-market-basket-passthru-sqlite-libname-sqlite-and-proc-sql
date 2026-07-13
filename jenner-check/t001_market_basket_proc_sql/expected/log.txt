@@ -1,0 +1,26 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.market
+
+NOTE: Processing inline DATALINES (86 lines)
+
+NOTE: Read 86 rows from DATALINES.
+NOTE: Wrote work.market (86 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table work.top5 created.
+NOTE: PROC SQL statement used.
+NOTE: DATA work.prob
+
+
+NOTE: Read 5 rows from work.top5.
+NOTE: Wrote work.prob (5 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=work.prob
+
+NOTE: PROC PRINT completed: 5 observations printed, 4 variables

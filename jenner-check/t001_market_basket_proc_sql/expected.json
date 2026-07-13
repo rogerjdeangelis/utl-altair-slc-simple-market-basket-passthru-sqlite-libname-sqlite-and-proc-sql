@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-13T04:23:26Z",
+  "_captured_run_id": "r_e4aafde25ab042e9a90caee15d6b0f76",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 86 rows from DATALINES.",
+    "NOTE: Wrote work.market (86 rows, 2 columns).",
+    "NOTE: Table work.top5 created.",
+    "NOTE: Wrote work.prob (5 rows, 4 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
