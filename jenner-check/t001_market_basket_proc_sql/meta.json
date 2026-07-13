@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_market_basket_proc_sql",
+  "source_file": "utl-altair-slc-simple-market-basket-passthru-sqlite-libname-sqlite-and-proc-sql.sas",
+  "source_blob_sha": "e364283646e1ddd955496a15d3670c407603f981",
+  "source_commit": "8262126e318961c82ff068347be1c307812ac457",
+  "notes": "Approach 1 (pure SLC/SAS PROC SQL) from the repo's market-basket example: for each customer who bought butter, count co-purchased products, keep the top 5, and compute each product's probability relative to the butter count. Substituted the external sd1.market sas7bdat library (libname sd1 sas7bdat 'd:/sd1') with an inline datalines work.market of the same (id, products) shape, and declared the top-5 cap as PROC SQL OUTOBS=5. Correlated subquery, GROUP BY/ORDER BY, and the retain/prob DATA step are verbatim upstream."
+}
